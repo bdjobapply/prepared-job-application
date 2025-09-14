@@ -79,7 +79,7 @@ form.addEventListener("submit", async (e) => {
     `🎖️ গ্রেডঃ ${data.grade}\n` +
     `⭐ অগ্রাধিকারঃ ${data.priority}\n` +
     `🔗 লিংকঃ ${data.applyLink}\n` +
-    `💰 আনুমানিক পেমেন্টঃ ${data.paymentAmount}\n\n` +
+    `💰 আনুমানিক পেমেন্টর পরিমাণঃ ${data.paymentAmount}\n\n` +
     `📊 Sheet-ready CSV:\n${csvLine}`;
 
   try {
